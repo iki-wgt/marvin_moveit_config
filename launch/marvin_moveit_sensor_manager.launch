@@ -1,0 +1,10 @@
+<launch>
+	<param name="octomap_frame" type="string" value="odom_combined" />
+	<param name="octomap_resolution" type="double" value="0.04" />
+	<param name="max_range" type="double" value="1.8" />
+
+	<!--<rosparam command="load" file="$(find marvin_moveit_config)/config/sensors_rgbd_point_cloud_octomap_updater.yaml" />-->
+	
+	<rosparam command="load" file="$(find marvin_moveit_config)/config/sensors_rgbd_depth_map_octomap_updater.yaml" />
+</launch>
+
