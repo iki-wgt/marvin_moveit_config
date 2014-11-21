@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: marvin_description
+    relative_path: urdf/marvin.urdf
+  SRDF:
+    relative_path: config/marvin.srdf
+  CONFIG:
+    generated_timestamp: 1395237420
